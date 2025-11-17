@@ -1,5 +1,5 @@
 name: build x86
-on: [push]
+on: [workflow_dispatch]
 jobs:
   x86:
     runs-on: ubuntu-rolling
